@@ -1,0 +1,11 @@
+.App .bookLoverImage {
+ max-width: 200px; 
+ display: block;
+ margin: 0 auto;
+}
+
+.App-header h1{
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
