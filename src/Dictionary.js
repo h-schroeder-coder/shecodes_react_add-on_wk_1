@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
+import Photos from "./Photos";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
-  let [imageResults, setImageResults] = useState(null);
+  let [photos, setPhotos] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
   function handleDictionaryResponse(response) {
@@ -14,7 +15,7 @@ export default function Dictionary(props) {
   }
 
   function handleImagesResponse(response) {
-    setImageResults(response.data);
+    setPhotos(response.data.photos);
   }
 
   function search() {
@@ -59,7 +60,8 @@ export default function Dictionary(props) {
             suggested words: friendship, kindness, valuable...
           </p>
         </form>
-        <Results results={results} imageResults={imageResults} />
+        <Results results={results} />
+        <Photos photos={photos} />
       </div>
     );
   } else {

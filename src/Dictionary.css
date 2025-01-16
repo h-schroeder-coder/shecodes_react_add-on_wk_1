@@ -47,3 +47,14 @@ form {
   margin: 10px;
 }
 
+.Dictionary .imageCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px auto;
+    padding: 30px;
+    background-color: #FFB6B6;
+    box-shadow: 10px 10px 10px rgba(47, 46, 65, 0.2);
+    border-radius: 5px;
+}
+
