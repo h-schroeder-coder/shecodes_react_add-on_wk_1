@@ -15,7 +15,7 @@ export default function App() {
           />
           <h1>Dictionary</h1>
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="Rose" />
         <Footer />
       </div>
     </div>

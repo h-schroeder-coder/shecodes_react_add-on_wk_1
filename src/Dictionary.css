@@ -1,0 +1,49 @@
+.Dictionary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+form {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(47, 46, 65, 0.2);
+}
+
+.directions {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.search-box {
+    width: 80%;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.search-submit {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #6C63FF;
+    border-radius: 50px;
+    border: none;
+}
+
+.suggestions {
+  margin: 10px;
+}
+

@@ -1,0 +1,28 @@
+.Meaning {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(47, 46, 65, 0.2);
+    padding: 20px;
+    margin: 35px 20px;
+    border: 3px solid #FFB6B6;
+}
+
+.Meaning h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+.Meaning .resulting {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-bottom: 0.5rem;
+}
+
+.Meaning .definition {
+  display: block;
+  text-align: left;
+  color: #FD6584;
+  font-weight: 700;
+}

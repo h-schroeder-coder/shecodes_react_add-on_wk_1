@@ -1,0 +1,33 @@
+.Results section {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Results h2 {
+    font-size: 3em;
+    color: #6C63FF;
+    margin: 20px;
+    text-align: center;
+}
+
+.Results h3 {
+    font-size: 2em;
+    color: #3F3D56;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.Results .imageCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px auto;
+    padding: 30px;
+    background-color: #FFB6B6;
+    box-shadow: 10px 10px 10px rgba(47, 46, 65, 0.2);
+    border-radius: 5px;
+}
+
+.Results .resultingImage {
+    border-radius: 5px;
+}

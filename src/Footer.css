@@ -1,0 +1,15 @@
+footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #fd6583;
+    border-radius: 5px;
+    color: #3F3D56;
+}
+
+footer a {
+    color: #3f3d567e;
+    text-decoration: none;
+}
